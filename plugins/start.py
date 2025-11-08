@@ -62,6 +62,11 @@ async def short_url(client: Client, message: Message, base64_string):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def start_command(client: Client, message: Message):
+    # Send a fun intro sticker
+    sticker_msg = await message.reply_sticker("CAACAgIAAxkBAAEOzx1oYSD_gRYDGmFa7WF9mwsjFI5gjQACFhIAAusmyUuc8bF-CV1AyTYE")
+    await asyncio.sleep(2)
+    await sticker_msg.delete()
+
     user_id = message.from_user.id
     id = message.from_user.id
     is_premium = await is_premium_user(id)
@@ -202,7 +207,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Nova_Flix/50")],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Dramafilez/4")],
 
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
