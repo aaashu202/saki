@@ -40,8 +40,8 @@ START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/LDMcWdYT/file-923.jpg"
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://iili.io/3bQtwWN.md.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "06a09b9ecbde6295a1c12864eac85e0a33eb0fcb")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "105c56928e54e112d88930006173fcd0e1d1ec73")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/korean_dramas_bot_Dramafilez/9")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
